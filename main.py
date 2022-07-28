@@ -1,12 +1,12 @@
 #
 #
-#
-# links
+
+# links/urls:
 # https://meet.google.com/mhu-wczm-bbg
 # https://www.youtube.com/
 
 #### importar as bibliotecas  ####
-import qrcode
+import pyqrcode
 import png
 
 # instalação do OpenCV
@@ -14,10 +14,11 @@ import png
 import cv2
 ##### fim da importação #####
 
+
 # 1
 # criar um objeto qrcode
-image1 = qrcode.make("https://meet.google.com/mhu-wczm-bbg")
-image1.save('qRsalaAula.png')
+url1 = qrcode.make("https://meet.google.com/mhu-wczm-bbg")
+url1.save('qRsalaAula.png')
 
 
 
