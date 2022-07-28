@@ -18,11 +18,18 @@ import cv2
 
 
 # 1
-# criar um objeto qrcode
+# criar um objeto pyqrcode
 url1 = pyqrcode.create("https://meet.google.com/mhu-wczm-bbg")
 nomeArquivo = "qRSalaAula"
 url1.png(nomeArquivo + ".png")
 url1.show()
 
+
+# 2
+# criar um objeto pyqrcode
+url2 = pyqrcode.create("https://www.youtube.com/")
+nomeArquivo = "qRyoutube"
+url2.png(nomeArquivo + ".png", scale=10)
+url2.show()
 
 
