@@ -51,4 +51,12 @@ cv2.destroyAllWindows()
 cv2.imwrite("qrCode1.png", imagem1)
 cv2.imwrite("qrCode2.png", imagem2)
 
+# decodificar qrCode
+# 7
+# criar um objeto cv2
+decodificar1 = pyqrcode.decode(imagem1)
+decodificar2 = pyqrcode.decode(imagem2)
+# 8
+print(decodificar1)
+
 
