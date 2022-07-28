@@ -50,5 +50,3 @@ cv2.destroyAllWindows() # fechar todas as janelas abertas
 # criar um objeto cv2
 cv2.imwrite("qrCode1.png", imagem1) # salvar a imagem na pasta do computador com o nome qrCode1.png
 cv2.imwrite("qrCode2.png", imagem2)
-
-
